@@ -1,0 +1,449 @@
+.body-content {
+	background-color: #F3EEEE;
+	margin-top: 52px;
+}
+
+section {
+	padding: 60px 0px;
+}
+
+.section-content {
+	display: table;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.valign-center {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.section-title {
+	text-align: center;
+	margin: 30px 0px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.p-l-0 {
+	padding-left: 0px;
+}
+
+.p-r-0 {
+	padding-right: 0px;
+}
+
+.m-l-0 {
+	margin-left: 0px;
+}
+
+.m-r-0 {
+	margin-right: 0px;
+}
+
+.white-bg {
+	background-color: #f9f9f9;
+}
+
+/*-----------------------------  form ----------------------------*/
+
+.form-control {
+	border-radius: 0px;
+}
+
+
+/*-----------------------  navigation bar  ----------------------*/
+
+#mainNavigation {
+    /*background-color: #00A651;*/
+    background-color: #2A3F54;
+    border-bottom: transparent;
+}
+
+#mainNavigation .navbar-brand a{
+	color: #ffffff;
+}
+
+.navbar-nav>li>a {
+	color: #ffffff;
+	margin: 0px 1px -2px 1px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+	/*background-color: #6CCC44;*/
+	/*background-color: #1AC16B;*/
+    background-color: #1ABB9C;
+}
+
+.navbar-nav>li.active a {
+    /*background-color: #1AC16B;
+    color: #85FF00;
+    border-top: 2px solid #85FF00;*/
+    background-color: #13A77B;
+    color: #f3f3f3;
+    border-top: 2px solid #DBFCF7;
+}
+
+/*===================  Header  ======================*/
+
+.header {
+	background: url(../image/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.overlay {
+	padding: 100px 0px;
+	/*background-color: rgba(33, 82, 32, 0.62);*/
+    background-color: rgba(42, 63, 84, 0.58);
+}
+
+.header h1 {
+	color: #ffffff;
+}
+
+.header p {
+	color: #ffffff;
+}
+
+.header form {
+	margin-top: 35px;
+}
+
+
+/*-----------------------  hot item -------------------------*/
+
+.image-overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.2);
+}
+
+
+/*-------------------------  popular-restaurant ----------------*/
+.popular-restaurant {
+	border: 1px solid #00a651;
+	margin-bottom: 25px;
+	padding-top: 15px;
+}
+
+.popular-restaurant h4 {
+	background-color: rgba(33, 144, 87, 0.89);
+	color: #ffffff;
+	padding: 7px;
+	margin-bottom: 0px;
+}
+
+
+
+
+
+.discount img {
+	margin-bottom: 25px;
+}
+
+.discount-info{
+    position: absolute;
+    left: 15px;
+    top: 0;
+    display: block;
+    width: auto;
+    max-width: 80%;
+    padding: 8px 16px;
+    background: rgba(22, 86, 89, 0.82);
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.discount-info h4{
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 0 5px;
+    font-weight: 400;
+}
+
+.discount-info small{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/*-----------------------------  app-advertise -----------------------*/
+.download a {
+    display: inline-block;
+    margin: 0px 15px;
+    box-shadow: 5px 5px 1px #9A9A9A;
+}
+
+/*---------------------------  testimonial ------------------------------*/
+
+#client-speech .client-box {
+	background-color: #EBEFEA;
+    box-shadow: 1px 3px 7px #eee;
+    margin-bottom: 2.714em;
+    padding: 40px;
+    padding-bottom: 60px;
+}
+
+#client-speech .client-box .about-client {
+    width: 32%;
+    float: left;
+}
+
+#client-speech .client-box .about-client p {
+	font-size: 12px;
+	font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px 0px;
+}
+
+#client-speech .client-box .main-speech {
+    padding-left: 40%;
+}
+
+#client-speech .client-box .main-speech p {
+	font-size: 13px;
+	margin-top: 5px;
+}
+
+
+/* 
+    -------------------------------------------------------------------------------
+                                    [9.2 -  Subscribe]
+    -------------------------------------------------------------------------------
+*/
+
+.subscribe{
+	padding: 0px;
+    width: 100%;
+    background-image: url(../image/subscribe_bg.jpg);
+    -webkit-background-size: cover !important;
+       -moz-background-size: cover !important;
+        -ms-background-size: cover !important;
+         -o-background-size: cover !important;
+            background-size: cover !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subscribe .overlay {
+	padding: 75px 0px;
+	background-color: rgba(0, 166, 81, 0.19);
+}
+
+.subscribe h3{
+	color: #ffffff;
+    margin-top: 5px;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.subscribe form {
+	margin-left: 12px;
+}
+
+#subscribe input[type="email"]:focus {
+    color: #000;
+}
+
+.subscribe-btn {
+	background-color: #00a651;
+	border: 1px solid #00a651;
+	border-radius: 0px;
+}
+
+
+/* 
+    =====================================================================================
+                                        [10. FOOTER]
+    =====================================================================================
+*/
+
+.footer{
+    background-color: #f9f9f9;
+    padding-bottom: 0px;
+}
+
+/* 
+    ------------------------------------------------------------------------------
+                                        [10.1 - Main Footer]
+    ------------------------------------------------------------------------------
+*/
+
+address {
+    color: #064C28;
+}
+
+#footer .widget:before,
+#footer .widget:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#footer .widget{
+    margin-bottom: 20px;
+}
+
+#footer .widget h2{
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: bold;
+    color: #00A651;
+    margin-bottom: 20px;
+}
+
+#footer .widget h3{
+    font-size: 20px;
+    line-height: 26px;
+    color: #00A651;
+    margin-bottom: 30px;
+}
+
+#footer .widget > ul,
+#footer .widget ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+#footer .widget > ul > li,
+#footer .widget > ul > li > a,
+#footer .widget ul > li,
+#footer .widget ul > li > a{
+    display: block;
+    padding: 2px 0;
+    font-size: 14px;
+    color: #064C28;
+    font-weight: 400;
+}
+
+#footer .widget > ul > li > a::before,
+#footer .widget ul > li > a::before{
+    content: '\f10c';
+    font-family: 'FontAwesome';
+    font-size: 15px;
+    font-weight: 400;
+    padding-right: 15px;
+}
+
+#footer .widget > ul > li > a:hover,
+#footer .widget > ul > li > a:focus,
+#footer .widget ul > li > a:hover,
+#footer .widget ul > li > a:focus{
+    color: #00A651;
+}
+
+/* 
+    ------------------------------------------------------------------------------
+                                        [10.2 - Copyright]
+    ------------------------------------------------------------------------------
+*/
+
+.copyright{
+	background-color: #064C28;
+    position: relative;
+    margin-top: 60px;
+    padding: 20px 0px;
+    text-align: center;
+    color: #d9dae9;
+    word-spacing: 3px;
+}
+
+
+/*```````````  Owl Carousel Customization  ````````````*/
+
+#foodSlide.owl-theme .owl-controls .owl-buttons div {
+	background-color: transparent;
+    position: absolute;
+    font-size: 30px;
+    opacity: 1;
+    margin: 0px;
+    color: #00a651;
+    bottom: 40%;
+    line-height: 40px;
+}
+
+#foodSlide .owl-prev {
+    left: 0;
+    font-family: "FontAwesome";
+}
+
+#foodSlide .owl-prev:before {
+	content: "\f053";
+}
+
+#foodSlide .owl-next {
+    right: 0;
+    font-family: "FontAwesome";
+}
+
+#foodSlide .owl-next:before {
+	content: "\f054";
+}
+
+.search-result {
+    padding: 20px 30px;
+    background-color: #ffffff;
+    margin: 15px 0px;
+}
+
+.search-result h3 {
+    margin-top: 0px;
+}
+
+
+/*================  Dashboard Customization ===========*/
+
+.profile {
+    display: inline-block;
+}
+
+#comparisonNavigation {
+    background-color: #2A3F54;
+    margin-bottom: 5px;
+}
+
+#comparisonNavigation a{
+    color: #ffffff !important;
+}
+
+#comparisonNavigation .navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+
+#comparisonNavigation .navbar-nav li {
+    float: none;
+    display: inline-block;
+}
+
+.info-box {
+    padding: 20px 30px;
+    background-color: #ECF0E2;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #2A3F54;
+    box-shadow: 2px 2px 3px #CACACA;
+}
+
+/*++++++++++++++++++++  ADmiN +++++++++++++++++++++++++++*/
+
+table tr th {
+    text-align: center;
+}
